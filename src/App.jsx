@@ -3,8 +3,8 @@
 const projects = [
   {
     title: "Project One",
-    description: "A cool project that does something interesting.",
-    link: "#",
+    description: "Build a Private Blog Network for a Casino Niche that list all of the best slot sites and bonuses.",
+    link: "https://slotfree100.com",
   },
   {
     title: "Project Two",
@@ -23,7 +23,7 @@ const blogPosts = [
     title: "Getting Started With My Dev Journey",
     date: "Dec 10, 2025",
     excerpt: "How I started learning web development and what I'm focusing on...",
-    link: "#",
+    link: "https://sg8.fun/sbobet",
   },
   {
     title: "What I Learned Building This Portfolio",
@@ -93,7 +93,7 @@ function App() {
 
         {/* Blog */}
         <section id="blog" className="section">
-          <h2>Blog</h2>
+          <h2>Article Writing</h2>
           <div className="grid">
             {blogPosts.map((post) => (
               <article key={post.title} className="card">
